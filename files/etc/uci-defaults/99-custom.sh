@@ -14,7 +14,7 @@ uci set firewall.@zone[1].input='ACCEPT'
 
 # LAN 网络设置
 uci set network.lan.proto='static'
-uci set network.lan.ipaddr='192.168.0.1'
+uci set network.lan.ipaddr='192.168.100.1'
 uci set network.lan.netmask='255.255.255.0'
 
 # 设置所有网口可访问网页终端
